@@ -5,7 +5,7 @@ exports.run = (client, message) => {
         embed: {
             color: 0xffffff,
             title: "Discord Invite Link",
-            url: `https://discordapp.com/oauth2/authorize/?permissions=2146958591&scope=bot&client_id=${client.user.id}`,
+            url: `https://invite.gg/rageempire`,
             description: `Once invited, type \`${p}help\` to see my commands.`,
             timestamp: new Date(),
             footer: {
